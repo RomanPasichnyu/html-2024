@@ -1,0 +1,32 @@
+.main {
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 90%;
+}
+
+.products {
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product-card {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    margin: 5px;
+    flex-wrap: wrap;
+    height: 200px;
+    width: 150px;
+    background-color: rgba(237, 237, 237, 0.59);
+    border: 1px solid grey;
+}
+img{
+    padding-bottom: 20px;
+}

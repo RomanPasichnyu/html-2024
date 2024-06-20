@@ -1,0 +1,13 @@
+div{
+    margin: 10px 10px 10px 0;
+}
+.player1{
+    display: flex;
+}
+.red-items{
+    color: red;
+}
+.red-items, .black-items{
+    padding: 5px;
+    background-color: silver;
+}
