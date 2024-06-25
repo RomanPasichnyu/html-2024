@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.block{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.block h2, p{
+    width: 90%;
+    margin: 30px;
+    font-size: 30px;
+}
+.block a {
+    text-decoration: none;
+    font-size: 40px;
+    color: black;
+}
+#top{
+    background-color: red;
+}
+#middle{
+    background-color: yellow;
+}
+#bottom{
+    background-color: green;
+}
