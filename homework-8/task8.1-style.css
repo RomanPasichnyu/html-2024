@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+header{
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header ul{
+    list-style-type: none;
+    gap: 60px;
+    display: flex;
+}
+header ul a{
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+}
+main{
+    display: flex;
+
+}
+.logo{
+    display: flex;
+    justify-content: flex-end;
+    margin: 100px 42px 0 165px;
+    width: 50%;
+}
+.info{
+    margin-top: 250px;
+    width: 50%;
+}
+.info h2{
+    color: #000;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #000;
+    font-size: 48px;
+    width: 500px;
+}
+.info ul{
+    display: flex;
+    list-style-type: none;
+    gap: 27px;
+}
+.price{
+    margin: 37px 0 37px 0;
+    color: #AD0306;
+    font-size: 36px;
+}
+.description{
+    width: 330px;
+    margin-top: 48px;
+    color: #000;
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: #000;
+    font-size: 18px;
+}
+.black{
+    color: #000;
+    font-size: 13px;
+}
+.silver{
+    color: #A19FA0;
+    -webkit-text-stroke-width: 0.2px;
+    -webkit-text-stroke-color: #A19FA0;
+    font-size: 13px;
+}
+.red{
+    color: #B93536;
+    -webkit-text-stroke-color: #A90102;
+    font-size: 13px;
+}
