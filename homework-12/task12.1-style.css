@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-spacing: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+table{
+    border-bottom: 1px black solid;
+}
+th, td {
+    padding: 10px 50px;
+}
+tr:nth-child(2){
+    background-color: green;
+    color: white;
+    font-weight: 600;
+}
+tr:nth-child(2n+3){
+    background-color: darkseagreen;
+    transition: 1s;
+}
+
+tr:nth-child(2n+3):hover{
+    background-color: lightgreen;
+    transition: 1s;
+}
+
+tr:nth-child(2n+4):hover{
+    background-color: silver;
+    transition: 1s;
+}
+tr:nth-child(2n+4){
+    transition: 1s;
+}
