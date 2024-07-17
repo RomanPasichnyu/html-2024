@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+header{
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+header ul{
+    list-style-type: none;
+    gap: 60px;
+    display: flex;
+}
+header ul a{
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+}
+main{
+    display: flex;
+
+}
+.logo{
+    display: flex;
+    justify-content: flex-end;
+    margin: 100px 42px 0 165px;
+    width: 50%;
+}
+.info{
+    margin-top: 250px;
+    width: 50%;
+}
+.info h2{
+    color: #000;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #000;
+    font-size: 48px;
+    width: 500px;
+}
+.info ul{
+    display: flex;
+    list-style-type: none;
+    gap: 27px;
+}
+.price{
+    margin: 37px 0 37px 0;
+    color: #AD0306;
+    font-size: 36px;
+}
+.description{
+    width: 330px;
+    margin-top: 48px;
+    color: #000;
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: #000;
+    font-size: 18px;
+}
+.black{
+    color: #000;
+    font-size: 13px;
+}
+.silver{
+    color: #A19FA0;
+    -webkit-text-stroke-width: 0.2px;
+    -webkit-text-stroke-color: #A19FA0;
+    font-size: 13px;
+}
+.red{
+    color: #B93536;
+    -webkit-text-stroke-color: #A90102;
+    font-size: 13px;
+}
+.second-slide{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.second-slide h2{
+    display: inline-block;
+    width: 472px;
+    height: 116px;
+    margin: 212px auto 0 auto;
+    color: #142823;
+    text-align: center;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.card{
+    position: relative;
+    margin-top: 58px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 285px;
+    height: 330px;
+}
+.card:nth-child(1) p{
+    color: #106FDF;
+    font-size: 24px;
+    font-weight: 700;
+}
+.card:nth-child(2) p{
+    color:#DD152D;
+    font-size: 24px;
+    font-weight: 700;
+}
+.card:nth-child(3) p{
+    color: #106FDF;
+    font-size: 24px;
+    font-weight: 700;
+}
+.rating{
+    position: absolute;
+    width: 165px;
+    height: 60px;
+    top: -30px;
+}
+.card h4{
+    margin: 20px auto 20px auto;
+}
+
