@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>16.2</title>
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .wrap{
+            display: grid;
+            height: 100vh;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: 1fr 1fr 1fr;
+            grid-template-areas:
+        ' header header header header '
+        'b b b aside'
+        'c d e aside';
+        }
+        header{
+            grid-area: header;
+            border: 1px solid;
+        }
+        .b{
+            grid-area: b;
+            border: 1px solid;
+        }
+        .c{
+            grid-area: c;
+            border: 1px solid;
+        }
+        .d{
+            grid-area: d;
+            border: 1px solid;
+        }
+        .e{
+            grid-area: e;
+            border: 1px solid;
+        }
+        aside{
+            grid-area: aside;
+            border: 1px solid;
+        }
+        main{
+            grid-area: main;
+        }
+        main{
+            display: contents;
+        }
+
+        @media screen and (max-width: 480px) {
+            .wrap {
+                grid-template-columns: 1fr 1fr 1fr;
+                grid-template-rows: 1fr 2fr 1fr 1fr;
+                grid-template-areas:
+                    'header header header '
+                    'b b b'
+                    'c d e'
+                    'aside aside aside';
+            }
+            main{
+                width: 100vw;
+            }
+        }
+
+
+
+    </style>
+</head>
+<body>
+
+<div class="wrap">
+    <header>A</header>
+    <main>
+        <div class="b">B</div>
+        <div class="c">C</div>
+        <div class="d">D</div>
+        <div class="e">E</div>
+    </main>
+    <aside>F</aside>
+</div>
+
+
+</body>
+</html>

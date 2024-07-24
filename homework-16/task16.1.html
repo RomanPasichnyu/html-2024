@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>16.1</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        main {
+            display: grid;
+            height: 100vh;
+            width: 100%;
+            grid-template-columns: 2fr 1fr;
+            grid-auto-rows: 1fr 2fr;
+            grid-template-areas:
+            'header header'
+            'section footer';
+        }
+
+        header {
+            grid-area: header;
+            border: 1px solid;
+        }
+
+        section {
+            grid-area: section;
+            border: 1px solid;
+        }
+
+        footer {
+            grid-area: footer;
+            border: 1px solid;
+        }
+
+        @media screen and (max-width: 480px) {
+            main {
+                grid-template-areas:
+                'header'
+                'section'
+                'footer';
+            }
+            header, section, footer {
+                width: 100vw;
+            }
+        }
+
+
+    </style>
+</head>
+<body>
+
+<main>
+    <header>A</header>
+    <section>B</section>
+    <footer>C</footer>
+</main>
+
+
+</body>
+</html>
